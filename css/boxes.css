@@ -1,0 +1,73 @@
+section {
+    margin-top: 10vh;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for image and info */
+
+.card-container {
+    margin: 0px;
+    padding: opx;
+    max-width: 576px;
+    display: flex;
+    border-radius: 10px;
+}
+
+/* Image container */
+
+.card-image-mobile {
+    display: none;
+    
+}
+
+.card-image {
+    max-width: 50%;
+}
+
+    /* Make image fill its container */
+    .cover {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+/* Info container */
+
+.card-info {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 50%;
+    background-color: var(--White);
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1.5rem;
+  }
+
+/* Button*/
+
+.button {
+    margin: 1.5rem;
+    height: 4rem;
+    background-color: hsl(158, 36%, 37%);
+    font-size: 1.4rem;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .cart-ico {
+        width: auto;
+        height: 50%;
+        margin-right: 1rem;
+    }

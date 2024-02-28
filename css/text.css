@@ -1,0 +1,37 @@
+html {
+    font-size: 10px;
+}
+
+/* Text */
+
+.text-top {
+    color: var(--DarkGrayishBlue);
+    font-size: 1.4rem;
+    margin: 1.5rem;
+}
+
+.title {
+    color: var(--Black);
+    font-size: 4rem;
+    line-height: 1;
+    margin: 1.5rem;
+}
+
+.description {
+    color: var(--DarkGrayishBlue);
+    font-size: 1.4rem;
+    line-height: 2;
+    margin: 1.5rem;
+}
+
+.ofert {
+    color: var(--DarkCyan);
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.price {
+    color: var(--DarkGrayishBlue);
+    font-size: 1.4rem;
+    text-decoration: line-through;
+}
